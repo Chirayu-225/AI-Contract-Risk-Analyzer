@@ -1,0 +1,243 @@
+{
+  "risk_categories": {
+    "Unlimited Liability": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Uncapped Liability",
+      "description": "Contract imposes no cap on damages, exposing the signing party to unlimited financial liability.",
+      "plain_language": "You could owe unlimited money if something goes wrong.",
+      "recommendation": "Negotiate a liability cap — typically 1x or 2x the contract value."
+    },
+    "IP Ownership Assigned": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "IP Ownership Assignment",
+      "description": "Intellectual property created during the engagement is assigned to the other party.",
+      "plain_language": "Anything you build or create under this contract belongs to them, not you.",
+      "recommendation": "Retain ownership of pre-existing IP. Negotiate joint ownership or license-back for work product."
+    },
+    "Non-Compete": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Non-Compete",
+      "description": "Restricts the signing party from working with competitors or in related industries.",
+      "plain_language": "You may be blocked from working with other companies in your sector.",
+      "recommendation": "Limit scope (geography, duration, industry). Broad non-competes are often unenforceable in India."
+    },
+    "Auto-Renewal": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Renewal Term",
+      "description": "Contract renews automatically without explicit action, potentially locking in unfavorable terms.",
+      "plain_language": "This contract renews itself — you could be locked in for another year without realizing it.",
+      "recommendation": "Add a notice period (30–60 days) for non-renewal and ensure opt-out rights."
+    },
+    "Termination for Convenience": {
+      "risk_level": "high",
+      "party_bias": "check-direction",
+      "cuad_label": "Termination For Convenience",
+      "description": "One or both parties can terminate without cause. Direction determines who benefits.",
+      "plain_language": "The contract can be ended without reason — check whether this applies to them, you, or both.",
+      "recommendation": "Ensure termination for convenience is mutual, with adequate notice period (30–90 days)."
+    },
+    "Indemnification": {
+      "risk_level": "high",
+      "party_bias": "check-direction",
+      "cuad_label": "Indemnification",
+      "description": "One party must compensate the other for losses, damages, or legal costs.",
+      "plain_language": "You may have to pay their legal fees and losses if something goes wrong — even for things outside your control.",
+      "recommendation": "Ensure indemnification is mutual and limited to direct damages caused by your negligence."
+    },
+    "Price Restrictions": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Price Restrictions",
+      "description": "Restricts the signing party from changing pricing, discounting, or offering different terms.",
+      "plain_language": "Your pricing flexibility may be restricted by this agreement.",
+      "recommendation": "Negotiate carve-outs for promotional pricing and minimum advertised price policies."
+    },
+    "Liquidated Damages": {
+      "risk_level": "high",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Liquidated Damages",
+      "description": "Pre-specified penalty amounts triggered by defined breaches.",
+      "plain_language": "If you breach certain terms, you automatically owe a fixed penalty amount.",
+      "recommendation": "Ensure penalty amounts are reasonable and proportionate to actual potential harm."
+    },
+    "Governing Law": {
+      "risk_level": "medium",
+      "party_bias": "neutral",
+      "cuad_label": "Governing Law",
+      "description": "Specifies which jurisdiction's laws govern the contract.",
+      "plain_language": "Disputes will be resolved under the laws of a specific state or country.",
+      "recommendation": "For Indian startups, prefer Indian governing law (Maharashtra or Karnataka courts are common)."
+    },
+    "Audit Rights": {
+      "risk_level": "medium",
+      "party_bias": "neutral",
+      "cuad_label": "Audit Rights",
+      "description": "Grants one party the right to audit the other's records, systems, or compliance.",
+      "plain_language": "They may have the right to inspect your books, systems, or operations.",
+      "recommendation": "Limit audit frequency (once per year), require advance notice (30 days), and define scope clearly."
+    },
+    "Exclusivity": {
+      "risk_level": "medium",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Exclusivity",
+      "description": "Restricts one party from engaging with competitors or alternative vendors.",
+      "plain_language": "You may be locked into using only this vendor for this category of service.",
+      "recommendation": "Time-limit any exclusivity clause and ensure performance benchmarks are attached."
+    },
+    "Minimum Commitment": {
+      "risk_level": "medium",
+      "party_bias": "vendor-favored",
+      "cuad_label": "Minimum Commitment",
+      "description": "Requires a minimum purchase, usage, or revenue guarantee.",
+      "plain_language": "You are committed to spending a minimum amount regardless of actual usage.",
+      "recommendation": "Negotiate usage-based pricing or reduce minimum commitment to a realistic baseline."
+    },
+    "Change of Control": {
+      "risk_level": "medium",
+      "party_bias": "neutral",
+      "cuad_label": "Change of Control",
+      "description": "Defines what happens to the contract if either party is acquired or undergoes a change in ownership.",
+      "plain_language": "If the vendor is acquired, your contract terms may change or be terminated.",
+      "recommendation": "Negotiate a right to terminate without penalty if a change of control occurs."
+    },
+    "Most Favored Nation": {
+      "risk_level": "medium",
+      "party_bias": "buyer-favored",
+      "cuad_label": "Most Favored Nation",
+      "description": "Guarantees the signing party receives the best pricing offered to any customer.",
+      "plain_language": "If they give a better deal to anyone else, you automatically get it too.",
+      "recommendation": "A favorable clause for buyers — retain it if present."
+    },
+    "Anti-Assignment": {
+      "risk_level": "medium",
+      "party_bias": "neutral",
+      "cuad_label": "Anti-Assignment",
+      "description": "Restricts either party from transferring their rights or obligations under the contract.",
+      "plain_language": "Neither party can hand this contract off to someone else without permission.",
+      "recommendation": "Ensure assignment restrictions are mutual and include exceptions for corporate restructuring."
+    },
+    "Confidentiality": {
+      "risk_level": "low",
+      "party_bias": "neutral",
+      "cuad_label": "Confidential Information",
+      "description": "Standard NDA provisions protecting sensitive information exchanged during the engagement.",
+      "plain_language": "Both parties agree to keep each other's sensitive information private.",
+      "recommendation": "Standard clause — verify it covers your key business information and has reasonable duration."
+    },
+    "Limitation of Liability": {
+      "risk_level": "low",
+      "party_bias": "neutral",
+      "cuad_label": "Cap on Liability",
+      "description": "Caps the maximum damages either party can claim.",
+      "plain_language": "Financial damages are limited to a defined maximum — protects both parties.",
+      "recommendation": "Ensure the cap is mutual and set at a reasonable level (1–2x annual contract value)."
+    },
+    "Warranty": {
+      "risk_level": "low",
+      "party_bias": "neutral",
+      "cuad_label": "Warranty Duration",
+      "description": "Defines the duration and scope of product or service warranties.",
+      "plain_language": "The vendor guarantees their product/service will work as described for a set period.",
+      "recommendation": "Standard clause — verify coverage period aligns with your business needs."
+    },
+    "Force Majeure": {
+      "risk_level": "low",
+      "party_bias": "neutral",
+      "cuad_label": "Force Majeure",
+      "description": "Excuses performance obligations in the event of extraordinary circumstances.",
+      "plain_language": "Neither party is liable if unforeseen events (natural disasters, pandemics) prevent performance.",
+      "recommendation": "Standard clause — ensure the definition of qualifying events is not overly broad."
+    },
+    "Dispute Resolution": {
+      "risk_level": "low",
+      "party_bias": "neutral",
+      "cuad_label": "Dispute Resolution",
+      "description": "Defines the process for resolving disagreements — arbitration, mediation, or litigation.",
+      "plain_language": "How disputes are settled if you disagree.",
+      "recommendation": "For Indian contracts, prefer arbitration under the Arbitration and Conciliation Act, 1996."
+    }
+  },
+
+  "missing_clause_checklist": [
+    {
+      "clause": "Limitation of Liability",
+      "severity": "critical",
+      "reason": "Without this, you face unlimited financial exposure. Most critical missing clause.",
+      "indian_context": "Indian courts will enforce unlimited liability clauses — no implied cap exists."
+    },
+    {
+      "clause": "Confidentiality / NDA",
+      "severity": "critical",
+      "reason": "Sensitive business information shared during engagement has no legal protection.",
+      "indian_context": "Indian IT Act 2000 does not substitute for contractual confidentiality provisions."
+    },
+    {
+      "clause": "Data Protection / Privacy",
+      "severity": "critical",
+      "reason": "No obligations on how personal or business data is handled, stored, or deleted.",
+      "indian_context": "DPDP Act 2023 creates statutory obligations — contract should align with these."
+    },
+    {
+      "clause": "Dispute Resolution / Arbitration",
+      "severity": "high",
+      "reason": "Without this, disputes default to court litigation — expensive and slow.",
+      "indian_context": "Indian court proceedings average 3–5 years. Arbitration is strongly preferable."
+    },
+    {
+      "clause": "Termination Notice Period",
+      "severity": "high",
+      "reason": "Either party can exit without notice, causing operational disruption.",
+      "indian_context": "30–90 day notice periods are standard in Indian commercial contracts."
+    },
+    {
+      "clause": "Warranty / Service Levels",
+      "severity": "high",
+      "reason": "No guarantee of service quality, uptime, or deliverable standards.",
+      "indian_context": "SaaS contracts should specify uptime SLAs and remedies for downtime."
+    },
+    {
+      "clause": "Force Majeure",
+      "severity": "medium",
+      "reason": "No protection if extraordinary events prevent contract performance.",
+      "indian_context": "Post-COVID, force majeure clauses are considered essential in Indian commercial practice."
+    },
+    {
+      "clause": "Governing Law",
+      "severity": "medium",
+      "reason": "Unclear which jurisdiction's laws apply — creates legal uncertainty.",
+      "indian_context": "Without this, courts must determine applicable law — costly and unpredictable."
+    },
+    {
+      "clause": "Payment Terms",
+      "severity": "medium",
+      "reason": "No clarity on when, how, or in what currency payments are due.",
+      "indian_context": "MSME Act 2006 mandates 45-day payment terms for registered MSMEs — verify compliance."
+    },
+    {
+      "clause": "IP Ownership",
+      "severity": "medium",
+      "reason": "Ownership of work product, code, or content created is legally ambiguous.",
+      "indian_context": "Indian Copyright Act defaults may not align with commercial intent — explicit clause needed."
+    }
+  ],
+
+  "contract_types": {
+    "SaaS Agreement": ["Limitation of Liability", "Confidentiality / NDA", "Data Protection / Privacy",
+                       "Dispute Resolution / Arbitration", "Termination Notice Period", "Warranty / Service Levels",
+                       "Force Majeure", "Governing Law", "Payment Terms", "Auto-Renewal"],
+    "NDA": ["Confidentiality / NDA", "Governing Law", "Dispute Resolution / Arbitration",
+            "Termination Notice Period", "IP Ownership"],
+    "Service Agreement": ["Limitation of Liability", "Confidentiality / NDA", "Dispute Resolution / Arbitration",
+                          "Termination Notice Period", "Warranty / Service Levels", "Payment Terms",
+                          "Governing Law", "IP Ownership", "Force Majeure"],
+    "Employment Contract": ["Confidentiality / NDA", "Non-Compete", "IP Ownership", "Governing Law",
+                            "Dispute Resolution / Arbitration", "Termination Notice Period"],
+    "Partnership Agreement": ["Governing Law", "Dispute Resolution / Arbitration", "Confidentiality / NDA",
+                              "IP Ownership", "Force Majeure", "Termination Notice Period",
+                              "Limitation of Liability", "Anti-Assignment"]
+  }
+}

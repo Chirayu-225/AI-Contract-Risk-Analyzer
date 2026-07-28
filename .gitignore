@@ -1,0 +1,26 @@
+# Virtual environment
+ca/
+
+# Database
+backend/lexai.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+*.env
+
+# Node modules
+frontend/frontend-package/node_modules/
+
+# Build output
+frontend/frontend-package/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
